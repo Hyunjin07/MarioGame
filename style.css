@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: url("images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mario {
+  height: 100px;
+  width: 130px;
+  position: fixed;
+  top: 40vh;
+  left: 30vw;
+  z-index: 100;
+}
+
+.pipe_sprite {
+  position: fixed;
+  top: 40vh;
+  left: 100vw;
+  height: 70vh;
+  width: 6vw;
+  background: radial-gradient(lightgreen 50%, green);
+  border: 5px solid black;
+}
+.coin {
+  position: absolute;
+  width: 70px; /* 코인의 너비 설정 */
+  height: 70px; /* 코인의 높이 설정 */
+  background-image: url("images/coin.png");
+  background-size: cover; /* 배경 이미지 크기 조정 */
+  border-radius: 50%; /* 원 모양의 코인을 만들기 위해 반지름 설정 */
+}
+
+.speed-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url("images/speed.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.message {
+  position: absolute;
+  z-index: 10;
+  color: black;
+  top: 30%;
+  left: 50%;
+  font-size: 4em;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.messageStyle {
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5%;
+}
+.score {
+  position: fixed;
+  z-index: 10;
+  height: 10vh;
+  font-size: 10vh;
+  font-weight: 100;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.score_val {
+  color: gold;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1080px) {
+  .message {
+    font-size: 50px;
+    top: 50%;
+    white-space: nowrap;
+  }
+  .score {
+    font-size: 8vh;
+  }
+  .mario {
+    width: 120px;
+    height: 90px;
+  }
+  .pipe_sprite {
+    width: 14vw;
+  }
+}
