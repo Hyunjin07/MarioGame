@@ -6,3 +6,8 @@
 슈퍼마리오가 장애물을 피하면 1 포인트씩 점수를 획득하며, 특정 아이콘을 스피드 아이콘이나 코인 아이콘을 먹었을때 스피드가 빨라지거나 점수 포인트를 2점 획득합니다.
 
 # 주요기능
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
+
