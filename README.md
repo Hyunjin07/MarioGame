@@ -8,8 +8,12 @@
 # 주요기능
 | First Header       | Second Header |
 | -----------------  | ------------- |
-| ![image](https://github.com/Hyunjin07/MarioGame/assets/111410288/e314c178-de81-487b-9445-05ad57d6e304)| 채
+|    ![image](https://github.com/Hyunjin07/MarioGame/assets/111410288/6810f825-e045-47d9-9a2a-a20aa48c244f)
+                |               |
 | Content Cell       | Content Cell  |
 |                    |               |
+| Content Cell       | Content Cell  |
+|                    |               |
+
 
  
