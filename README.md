@@ -10,5 +10,9 @@
 ![image](https://github.com/Hyunjin07/MarioGame/assets/111410288/21831bb3-cbdf-4c13-a046-bca118f51ad5)
 
 
+게임중에 코인 아이콘과 스피드 아이콘이 생성됩니다.
+![image](https://github.com/Hyunjin07/MarioGame/assets/111410288/e95484c3-592f-4886-8cd8-d54bf5044222)
 
- 
+
+장애물과 부딪힘으로써 게임이 종료 됩니다. 
+![image](https://github.com/Hyunjin07/MarioGame/assets/111410288/e16a8130-1793-4d2c-9183-48e39bbd520a)
